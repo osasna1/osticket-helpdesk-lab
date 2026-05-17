@@ -12,7 +12,7 @@ A hands-on IT support lab built using osTicket, an open-source help desk ticketi
 | Web Server | XAMPP (Apache) |
 | PHP Version | 8.2.12 |
 | Database | MySQL via phpMyAdmin |
-| Ticketing System | osTicket v1.18 |
+| Ticketing System | osTicket v1.17.7 |
 | URL | http://localhost/osticket |
 
 ---
@@ -91,19 +91,53 @@ A hands-on IT support lab built using osTicket, an open-source help desk ticketi
 
 ## Screenshots
 
-> Screenshots are located in the `/screenshots` folder of this repository.
+![XAMPP Running](01-xampp-running.png)
+**XAMPP Control Panel — Apache and MySQL running**
 
-| Screenshot | Description |
-|------------|-------------|
-| `01-xampp-running.png` | XAMPP control panel with Apache and MySQL running |
-| `02-osticket-login.png` | osTicket staff login page |
-| `03-help-topics.png` | Five help topic categories configured |
-| `04-closed-tickets.png` | All 5 tickets in the closed queue |
-| `05-ticket-632859.png` | Ticket #632859 — Hardware (James Brown) |
-| `06-ticket-696595.png` | Ticket #696595 — Software (Sarah Mitchell) |
-| `07-ticket-132147.png` | Ticket #132147 — Network (David Okafor) |
-| `08-ticket-861185.png` | Ticket #861185 — Password Reset (Linda Chung) |
-| `09-ticket-497593.png` | Ticket #497593 — New User Setup (Kevin Tran) |
+---
+
+![osTicket Installer](osticket%20installer.png)
+**osTicket v1.17.7 Installer — PHP 8.2.12 verified**
+
+---
+
+![Basic Installation](osticket-basic-installation.png)
+**osTicket Basic Installation configuration page**
+
+---
+
+![Installation Complete](osticket-installation-complete.png)
+**Successful installation confirmation**
+
+---
+
+![System Settings](osticket-system-settings.png)
+**Mathew IT Help Desk — system settings configured**
+
+---
+
+![Help Topics](help-topics.png)
+**Five help topic categories in staff panel**
+
+---
+
+![Help Topics Admin](help-topics-admin.png)
+**Help topics configured in admin panel**
+
+---
+
+![New Ticket Form](new-ticket-form.png)
+**Creating a new ticket for James Brown**
+
+---
+
+![Ticket 632859](ticket-632859-open.png)
+**Ticket #632859 open — Hardware Issues (James Brown)**
+
+---
+
+![Closed Tickets](closed-tickets-all.png)
+**All 5 tickets closed by Mathew Idemudia**
 
 ---
 
@@ -121,7 +155,7 @@ A hands-on IT support lab built using osTicket, an open-source help desk ticketi
 
 ## Author
 
-**Mathew Idemudia**  
-IT Support Professional | Full-Stack Developer  
-Oshawa, ON | Open to Work across Canada  
+**Mathew Idemudia**
+IT Support & Helpdesk Professional | Full-Stack Developer
+Oshawa, ON | Open to Work across Canada
 [GitHub](https://github.com/osasna1) | id.mathew@outlook.com
